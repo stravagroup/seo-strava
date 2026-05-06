@@ -163,7 +163,7 @@ export default async function BlogPostPage({ params }: Props) {
               src={post.image}
               alt={post.title}
               className="w-full h-auto block"
-              loading="lazy"
+              fetchPriority="high"
               width={1000}
               height={667}
             />

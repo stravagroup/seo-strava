@@ -144,7 +144,7 @@ export default async function ServicePage({ params }: Props) {
               src={service.image}
               alt={`${service.name} — Strava Group Sydney`}
               className="w-full h-auto block"
-              loading="lazy"
+              fetchPriority="high"
               width={1000}
               height={667}
             />
