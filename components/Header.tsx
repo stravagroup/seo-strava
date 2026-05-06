@@ -30,7 +30,7 @@ export default function Header() {
             alt="Strava Group Carpentry"
             width={160}
             height={48}
-            className="h-14 w-auto object-contain brightness-0 invert"
+            className="h-14 w-auto object-contain"
           />
         </Link>
 

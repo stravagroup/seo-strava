@@ -34,7 +34,7 @@ export default function Footer() {
                 width={160}
                 height={48}
                 loading="lazy"
-                className="h-10 w-auto object-contain brightness-0 invert"
+                className="h-10 w-auto object-contain"
               />
             </div>
             <p className="text-white/65 text-sm leading-relaxed max-w-xs">
