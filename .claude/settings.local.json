@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.stravagroup.com.au)",
+      "WebFetch(domain:stravagroup.com.au)",
+      "WebFetch(domain:www.hireawriter.us)",
+      "PowerShell(& cmd.exe /c \"where node\" 2>&1)",
+      "PowerShell(& cmd.exe /c \"where npm\" 2>&1)",
+      "PowerShell(Test-Path \"C:\\\\Program Files\\\\nodejs\\\\node.exe\"; Test-Path \"$env:APPDATA\\\\nvm\\\\nvm.exe\"; $env:NVM_HOME; $env:NVM_SYMLINK)",
+      "PowerShell(& \"C:\\\\Program Files\\\\nodejs\\\\npx.cmd\" -y http-server \"C:\\\\Users\\\\starv\\\\OneDrive\\\\Desktop\\\\SEO\\\\out\" -p 4000 --cors)"
+    ]
+  }
+}
