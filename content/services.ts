@@ -27,7 +27,7 @@ export const services: Service[] = [
       'Individual stud selection — bows identified, oriented in one direction, and marked',
       'Drop saw plate cutting across all wall runs — no snapping, no cumulative drift',
       'Rear nail and side fix on every stud as standard',
-      'Structural screws at all end studs',
+      'Structural screws at all end studs and bracing points',
       'Junctions pre-locked and face-fixed — stays tight over time',
       'Bowed and twisted plates rejected before they reach the floor',
       'True diagonal set-out verification — not 3-4-5',
@@ -36,7 +36,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: 'How much does wall framing cost in Sydney?',
-        a: 'Budget roughly $40–60 per lineal metre for straight timber stud framing on a slab, depending on wall height, complexity, and access. That\'s a rough guide — contact us for a proper quote based on your plans.',
+        a: 'Budget roughly $100–150 per lineal metre for straight timber stud framing on a slab, depending on wall height, complexity, and access. That\'s a rough guide — contact us for a proper quote based on your plans.',
       },
       {
         q: 'Do you need a licensed carpenter to frame walls in NSW?',
@@ -48,7 +48,7 @@ export const services: Service[] = [
       },
       {
         q: 'What timber do you use for wall framing?',
-        a: 'MGP10 machine-graded pine for structural studs and plates. We reject twisted, checked, or severely bowed material before it reaches the floor — not after it\'s nailed up.',
+        a: 'MGP10 machine-graded pine as standard for structural studs and plates — we reject twisted, checked, or severely bowed material before it reaches the floor. For clients who want a higher-spec finish, we also use LVL (laminated veneer lumber) on request. LVL is engineered to tighter tolerances and significantly more dimensionally stable than solid timber, which means straighter walls and better joinery outcomes. It costs a fair bit more, but for high-specification work where the joinery is expensive, it\'s worth the discussion.',
       },
       {
         q: 'Can you frame walls directly on a concrete slab?',
@@ -134,7 +134,7 @@ export const services: Service[] = [
       },
       {
         q: 'How long does roof framing take?',
-        a: 'A standard hip roof on a double-storey house takes four to six days for a crew. Complex roofs with multiple intersecting planes take longer. We\'ll confirm the timeline with you before starting.',
+        a: 'A standard roof takes around three days for a crew. Complex roofs with multiple intersecting planes take longer. We\'ll confirm the timeline with you before starting.',
       },
       {
         q: 'What are Pryda rafter screws?',
@@ -360,6 +360,10 @@ export const services: Service[] = [
       {
         q: 'What\'s the difference between concrete and steel stumps?',
         a: 'Concrete stumps are standard for most restumping work. Steel adjustable stumps are sometimes used in areas with heavy clay soils where ongoing ground movement is a factor — they can be re-levelled without excavation. Both are significantly more durable than the original timber stumps they replace.',
+      },
+      {
+        q: 'Why does proper restumping cost more than a quick jack-up?',
+        a: 'Because we don\'t just jack the house straight up and call it done. Bearers that have been static under load for decades have compressed timber fibres — forcing them back to level in one go causes cracking. Our process involves wetting the bearers for several days before lifting, then jacking slowly in stages to allow the fibres to soften and move gradually. It takes longer and costs more. The alternative is cracks in your plaster and doors that no longer close. Most operators skip this step. We don\'t.',
       },
     ],
   },

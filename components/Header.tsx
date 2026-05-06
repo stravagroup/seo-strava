@@ -26,8 +26,8 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" onClick={() => setOpen(false)}>
           <img
-            src="/logo.webp"
-            alt="Strava Group"
+            src="/strava-group-carpentry-logo.webp"
+            alt="Strava Group Carpentry"
             width={160}
             height={48}
             className="h-14 w-auto object-contain brightness-0 invert"

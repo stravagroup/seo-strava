@@ -7,6 +7,7 @@ export interface Location {
   subheadline: string
   description: string
   whyLocal: string
+  image: string
   services: Array<{
     name: string
     slug: string
@@ -34,7 +35,14 @@ export const locations: Location[] = [
       "The Inner West has more pre-war and federation homes per square kilometre than almost anywhere else in Sydney. That means more original timber floors, more subfloors that have been bearing load for eighty years, more walls that have shifted, more kitchens that need opening up, and more decks and pergolas being added to narrow Balmain and Leichhardt blocks where every centimetre counts.\n\nWe work across the Inner West on structural framing, wall removal, subfloor repairs, decking, pergolas, fit-out, and restumping. The work is the same regardless of the suburb — above-standard, properly fixed, built to last.",
     whyLocal:
       "Old homes in the Inner West are not the same as new builds. Timber moves. Stumps rot. Load paths change when kitchens get opened up. We understand how these homes are built, where they fail, and how to fix them properly rather than over the top of the problem.",
+    image: '/double-story-frame.webp',
     services: [
+      {
+        name: 'Wall Framing & Fit Out',
+        slug: 'wall-framing',
+        description: 'Structural framing and internal carpentry for renovations, extensions, and new builds across the Inner West.',
+        keywords: ['carpenter inner west', 'carpenters inner west', 'carpentry inner west', 'framing carpenter inner west', 'carpentry services inner west'],
+      },
       {
         name: 'Decking & Pergolas',
         slug: 'decking-pergolas',
@@ -54,10 +62,22 @@ export const locations: Location[] = [
         keywords: ['restumping inner west', 'house restumping balmain', 'restumping leichhardt', 'subfloor repair inner west', 'floor levelling inner west'],
       },
       {
-        name: 'Wall Framing & Fit Out',
-        slug: 'wall-framing',
-        description: 'Structural framing and internal carpentry for renovations, extensions, and new builds across the Inner West.',
-        keywords: ['carpenter inner west', 'carpenters inner west', 'carpentry inner west', 'framing carpenter inner west', 'carpentry services inner west'],
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Squeak-free subfloor framing for Inner West homes — polyurethane adhesive, ring-shank nails, full screw fix-off.',
+        keywords: ['subfloor framing inner west', 'subfloor repair inner west', 'squeaky floor inner west'],
+      },
+      {
+        name: 'Roof Framing',
+        slug: 'roof-framing',
+        description: 'Roof framing for extensions and new builds across the Inner West — pre-camber control, correct fixings throughout.',
+        keywords: ['roof framing inner west', 'roof carpenter inner west'],
+      },
+      {
+        name: 'Cladding',
+        slug: 'cladding',
+        description: 'External cladding installation for Inner West homes — fibre cement, timber, and battened systems over correctly prepared substrates.',
+        keywords: ['cladding inner west', 'cladding balmain', 'cladding leichhardt'],
       },
     ],
     seoTitle: 'Carpenter Inner West Sydney | Decking, Pergolas & Wall Removal | Strava Group',
@@ -97,7 +117,14 @@ export const locations: Location[] = [
       "The North Shore demands a high standard of finish. Homes in Mosman, Chatswood, and Willoughby are not the place for minimum-standard carpentry — the joinery is too expensive, the finishes too precise, and the owners too attentive for corners to be cut and not noticed.\n\nWe work across the North Shore on structural framing, wall framing, decking and pergola construction, wall removal, cladding, and fit-out. The same above-standard specification applies here as it does everywhere else — because minimum compliance produces minimum results.",
     whyLocal:
       "North Shore projects tend to be high-specification with multiple trades working in sequence. The framing needs to be right the first time — because errors at frame stage show up in every trade that follows, and no one wants to be explaining to a joiner why the kitchen cabinets don't sit flush.",
+    image: '/groundfloor-wall-frames.webp',
     services: [
+      {
+        name: 'Wall Framing & Fit Out',
+        slug: 'wall-framing',
+        description: 'Precision wall framing and internal carpentry for renovations and new builds across the North Shore.',
+        keywords: ['carpenter north shore', 'carpenters north shore', 'carpentry north shore', 'carpenter chatswood', 'carpenter mosman', 'carpenter lane cove', 'carpenter willoughby', 'carpentry services north shore'],
+      },
       {
         name: 'Decking & Pergolas',
         slug: 'decking-pergolas',
@@ -111,10 +138,10 @@ export const locations: Location[] = [
         keywords: ['structural wall removal north shore', 'load bearing wall removal chatswood', 'wall removal mosman', 'structural wall removal willoughby', 'structural wall removal lane cove'],
       },
       {
-        name: 'Wall Framing & Fit Out',
-        slug: 'wall-framing',
-        description: 'Precision wall framing and internal carpentry for renovations and new builds across the North Shore.',
-        keywords: ['carpenter north shore', 'carpenters north shore', 'carpentry north shore', 'carpenter chatswood', 'carpenter mosman', 'carpenter lane cove', 'carpenter willoughby', 'carpentry services north shore'],
+        name: 'Restumping',
+        slug: 'restumping',
+        description: 'Stump replacement and floor levelling for North Shore\'s older homes — Mosman, Cremorne, and Crows Nest have plenty of them.',
+        keywords: ['restumping north shore', 'house restumping mosman', 'restumping chatswood', 'restumping cremorne', 'subfloor repair north shore'],
       },
       {
         name: 'Cladding',
@@ -123,10 +150,16 @@ export const locations: Location[] = [
         keywords: ['cladding north shore', 'cladding chatswood', 'cladding mosman'],
       },
       {
-        name: 'Restumping',
-        slug: 'restumping',
-        description: 'Stump replacement and floor levelling for North Shore\'s older homes — Mosman, Cremorne, and Crows Nest have plenty of them.',
-        keywords: ['restumping north shore', 'house restumping mosman', 'restumping chatswood', 'restumping cremorne', 'subfloor repair north shore'],
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Squeak-free subfloor framing for North Shore homes — polyurethane adhesive, correct datum, full screw fix-off.',
+        keywords: ['subfloor framing north shore', 'subfloor repair north shore', 'squeaky floor north shore'],
+      },
+      {
+        name: 'Roof Framing',
+        slug: 'roof-framing',
+        description: 'Roof framing for North Shore extensions and new builds — pre-camber control, hand-finished bird\'s mouths, structural fixings throughout.',
+        keywords: ['roof framing north shore', 'roof carpenter north shore', 'roof carpenter mosman'],
       },
     ],
     seoTitle: 'Carpenter North Shore Sydney | Decking, Pergolas & Wall Removal | Strava Group',
@@ -166,7 +199,14 @@ export const locations: Location[] = [
       "The Eastern Suburbs sits at the premium end of Sydney's property market. That means renovations where the budget is significant and the expectation is high. It also means older terrace homes and semi-detached houses where wall removal is complicated by shared walls, tight sites, and original structures that weren't built to modern standards.\n\nWe work across the Eastern Suburbs on wall framing, wall removal, decking and pergola construction, cladding, and fit-out. Precision at framing stage is not optional when the finishes are high-end — it's what makes everything else possible.",
     whyLocal:
       "Eastern Suburbs properties are often expensive, often old, and often being renovated to a high standard. The framing behind those finishes matters more than anywhere. A plasterer can hide a lot. An $80,000 kitchen cannot hide a wall that isn't straight.",
+    image: '/erected-wall-frame.webp',
     services: [
+      {
+        name: 'Wall Framing & Fit Out',
+        slug: 'wall-framing',
+        description: 'Precision framing and internal carpentry where the standard of finish demands the frame underneath is right.',
+        keywords: ['carpenter eastern suburbs', 'carpenters eastern suburbs', 'carpenter bondi', 'carpenter randwick', 'carpenter coogee', 'carpentry services eastern suburbs'],
+      },
       {
         name: 'Decking & Pergolas',
         slug: 'decking-pergolas',
@@ -180,10 +220,10 @@ export const locations: Location[] = [
         keywords: ['structural wall removal eastern suburbs', 'load bearing wall removal bondi', 'wall removal randwick', 'structural wall removal paddington'],
       },
       {
-        name: 'Wall Framing & Fit Out',
-        slug: 'wall-framing',
-        description: 'Precision framing and internal carpentry where the standard of finish demands the frame underneath is right.',
-        keywords: ['carpenter eastern suburbs', 'carpenters eastern suburbs', 'carpenter bondi', 'carpenter randwick', 'carpenter coogee', 'carpentry services eastern suburbs'],
+        name: 'Restumping',
+        slug: 'restumping',
+        description: 'Stump replacement and floor levelling for Eastern Suburbs terrace homes, semis, and older cottages in Paddington, Woollahra, and Randwick.',
+        keywords: ['restumping eastern suburbs', 'house restumping paddington', 'restumping woollahra', 'restumping randwick', 'subfloor repair eastern suburbs'],
       },
       {
         name: 'Cladding',
@@ -192,10 +232,16 @@ export const locations: Location[] = [
         keywords: ['cladding eastern suburbs', 'cladding bondi', 'timber privacy screens eastern suburbs'],
       },
       {
-        name: 'Restumping',
-        slug: 'restumping',
-        description: 'Stump replacement and floor levelling for Eastern Suburbs terrace homes, semis, and older cottages in Paddington, Woollahra, and Randwick.',
-        keywords: ['restumping eastern suburbs', 'house restumping paddington', 'restumping woollahra', 'restumping randwick', 'subfloor repair eastern suburbs'],
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Subfloor framing for Eastern Suburbs terrace homes and semis — polyurethane adhesive, ring-shank nails, no squeaking.',
+        keywords: ['subfloor framing eastern suburbs', 'subfloor repair eastern suburbs', 'squeaky floor eastern suburbs'],
+      },
+      {
+        name: 'Roof Framing',
+        slug: 'roof-framing',
+        description: 'Roof framing for Eastern Suburbs extensions and new builds — correctly fixed, pre-cambered, built to stay straight.',
+        keywords: ['roof framing eastern suburbs', 'roof carpenter eastern suburbs', 'roof carpenter bondi'],
       },
     ],
     seoTitle: 'Carpenter Eastern Suburbs Sydney | Decking, Pergolas & Wall Removal | Strava Group',
@@ -235,6 +281,7 @@ export const locations: Location[] = [
       "The Northern Beaches is outdoor living country. Decks, pergolas, and alfresco structures are not optional extras up here — they're the point of the house. That means the quality of the outdoor structure matters, and so does its ability to handle a coastal environment where salt air, sun, and movement are constants.\n\nWe work across the Northern Beaches on decking, pergola construction, wall framing, fit-out, and wall removal. Hardware is specified for the exposure zone. Timber species and treatment levels are appropriate for coastal conditions. The structure is built to move with the environment, not against it.",
     whyLocal:
       "Coastal conditions are hard on outdoor structures. The wrong hardware corrodes within a few years. Untreated or undertreated timber won't last a decade. We specify materials and fixings appropriate for the Northern Beaches' coastal exposure — so the deck looks right in year ten, not just year one.",
+    image: '/composite-decking-around-pool.webp',
     services: [
       {
         name: 'Decking & Pergolas',
@@ -259,6 +306,24 @@ export const locations: Location[] = [
         slug: 'cladding',
         description: 'External cladding systems specified for coastal exposure zones — correct fixings, correct treatment levels, correct sequencing.',
         keywords: ['cladding northern beaches', 'timber cladding northern beaches'],
+      },
+      {
+        name: 'Restumping',
+        slug: 'restumping',
+        description: 'Stump replacement and floor levelling for older Northern Beaches homes — Manly, Fairlight, Freshwater, and Curl Curl.',
+        keywords: ['restumping northern beaches', 'house restumping manly', 'restumping dee why', 'subfloor repair northern beaches'],
+      },
+      {
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Squeak-free subfloor framing for Northern Beaches homes — polyurethane adhesive, correct datum, full screw fix-off.',
+        keywords: ['subfloor framing northern beaches', 'subfloor repair northern beaches', 'squeaky floor northern beaches'],
+      },
+      {
+        name: 'Roof Framing',
+        slug: 'roof-framing',
+        description: 'Roof framing for Northern Beaches extensions and new builds — pre-camber, correct fixings, coastal hardware specifications.',
+        keywords: ['roof framing northern beaches', 'roof carpenter northern beaches', 'roof carpenter manly'],
       },
     ],
     seoTitle: 'Carpenter Northern Beaches Sydney | Deck Builders & Pergolas | Strava Group',
@@ -298,18 +363,13 @@ export const locations: Location[] = [
       "The Hills District is one of Sydney's most active construction zones — new homes, duplexes, granny flats, and large-scale renovations being built constantly across Castle Hill, Baulkham Hills, Kellyville, and Parramatta. Volume construction is the norm out here. That creates an environment where minimum-standard framing is standard practice.\n\nWe work in the Hills District on structural wall framing, roof framing, subfloor framing, decking, pergolas, fit-out, and wall removal. Our specification doesn't change based on the build type or the suburb — above-standard on a Hills District duplex means the same thing it does on a Mosman renovation.",
     whyLocal:
       "High-volume construction areas attract high-volume carpentry. Fast, minimum-standard framing is the default out here — because no one's watching closely and the schedule is tight. We're not the fastest. We're the ones you call when you want it done right and don't want to be fixing it in year five.",
+    image: '/cathedral-ceiling-roof-frame.webp',
     services: [
       {
-        name: 'Wall Framing',
+        name: 'Wall Framing & Fit Out',
         slug: 'wall-framing',
         description: 'Structural wall framing for new builds, duplexes, and renovations across the Hills District — above the minimum standard the area is used to.',
         keywords: ['carpenter hills district', 'carpenters hills district', 'carpenter castle hill', 'carpenter baulkham hills', 'carpenter parramatta', 'framing carpenter hills district', 'carpentry services hills district'],
-      },
-      {
-        name: 'Decking & Pergolas',
-        slug: 'decking-pergolas',
-        description: 'Decking and pergola construction for Hills District homes — correct framing, correct fixings, hardware that lasts.',
-        keywords: ['deck builder hills district', 'decking hills district', 'pergola builder hills district', 'deck builder castle hill', 'deck builder parramatta', 'deck builder baulkham hills', 'pergola builder castle hill'],
       },
       {
         name: 'Roof Framing',
@@ -318,10 +378,34 @@ export const locations: Location[] = [
         keywords: ['roof carpenter hills district', 'roof framing hills district', 'framing services hills district'],
       },
       {
+        name: 'Decking & Pergolas',
+        slug: 'decking-pergolas',
+        description: 'Decking and pergola construction for Hills District homes — correct framing, correct fixings, hardware that lasts.',
+        keywords: ['deck builder hills district', 'decking hills district', 'pergola builder hills district', 'deck builder castle hill', 'deck builder parramatta', 'deck builder baulkham hills', 'pergola builder castle hill'],
+      },
+      {
         name: 'Wall Removal',
         slug: 'wall-removal',
         description: 'Structural wall removal for Hills District renovations — load path assessment first, correct temporary support, engineer-specified beams.',
         keywords: ['structural wall removal hills district', 'load bearing wall removal castle hill', 'wall removal parramatta', 'structural wall removal baulkham hills'],
+      },
+      {
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Subfloor framing for Hills District homes — polyurethane adhesive, correct datum, full screw fix-off. No squeaking.',
+        keywords: ['subfloor framing hills district', 'subfloor repair hills district', 'squeaky floor hills district'],
+      },
+      {
+        name: 'Restumping',
+        slug: 'restumping',
+        description: 'Stump replacement and floor levelling for older Hills District homes across Epping, Pennant Hills, and Carlingford.',
+        keywords: ['restumping hills district', 'house restumping epping', 'restumping pennant hills', 'restumping carlingford'],
+      },
+      {
+        name: 'Cladding',
+        slug: 'cladding',
+        description: 'External cladding installation for Hills District homes — fibre cement, timber, and battened systems installed correctly.',
+        keywords: ['cladding hills district', 'cladding castle hill', 'cladding parramatta'],
       },
     ],
     seoTitle: 'Carpenter Hills District Sydney | Wall Framing, Decking & Pergolas | Strava Group',
@@ -361,7 +445,14 @@ export const locations: Location[] = [
       "The Ryde and Gladesville area sits at the intersection of old and new Sydney. Hunters Hill has some of the oldest homes in the country. Ryde and North Ryde have seen significant apartment and duplex development. West Ryde and Meadowbank are in constant renovation. The work spans the full range — original federation homes needing restumping and structural repair, to new builds and extensions that need framing done right from the ground up.\n\nWe work across the Ryde area on structural wall framing, subfloor framing, restumping, decking, pergolas, wall removal, and fit-out. Hunters Hill in particular has some of Sydney's most significant heritage homes — structures that require careful work and genuine understanding of how old buildings behave.",
     whyLocal:
       "Ryde and Gladesville sit close to Strava Group's base of operations. We know this area well — the mix of old and new, the heritage constraints in Hunters Hill, the activity in North Ryde. Quick response, local knowledge, and no travel surcharge.",
+    image: '/bottom-plate-shot.webp',
     services: [
+      {
+        name: 'Wall Framing & Fit Out',
+        slug: 'wall-framing',
+        description: 'Structural framing and internal carpentry for renovations, extensions, and new builds across the Ryde area.',
+        keywords: ['carpenter ryde', 'carpenter west ryde', 'carpentry services ryde', 'carpenter gladesville', 'carpenter hunters hill', 'carpenter north ryde'],
+      },
       {
         name: 'Restumping',
         slug: 'restumping',
@@ -381,10 +472,22 @@ export const locations: Location[] = [
         keywords: ['structural wall removal ryde', 'structural wall removal north ryde', 'load bearing wall removal ryde', 'wall removal gladesville', 'structural wall removal hunters hill'],
       },
       {
-        name: 'Wall Framing & Fit Out',
-        slug: 'wall-framing',
-        description: 'Structural framing and internal carpentry for renovations, extensions, and new builds across the Ryde area.',
-        keywords: ['carpenter ryde', 'carpenter west ryde', 'carpentry services ryde', 'carpenter gladesville', 'carpenter hunters hill', 'carpenter north ryde'],
+        name: 'Subfloor Framing',
+        slug: 'subfloor-framing',
+        description: 'Subfloor framing and squeak-free floors for Ryde and Hunters Hill homes — polyurethane adhesive, ring-shank nails, full screw fix-off.',
+        keywords: ['subfloor framing ryde', 'subfloor repair ryde', 'squeaky floor ryde', 'subfloor repair hunters hill'],
+      },
+      {
+        name: 'Roof Framing',
+        slug: 'roof-framing',
+        description: 'Roof framing for Ryde area extensions and new builds — pre-camber, correct fixings, hand-finished bird\'s mouths.',
+        keywords: ['roof framing ryde', 'roof carpenter ryde', 'roof framing hunters hill'],
+      },
+      {
+        name: 'Cladding',
+        slug: 'cladding',
+        description: 'External cladding for Ryde and Gladesville homes — fibre cement, timber, and battened systems over correctly prepared substrates.',
+        keywords: ['cladding ryde', 'cladding gladesville', 'cladding hunters hill'],
       },
     ],
     seoTitle: 'Carpenter Ryde & Gladesville | Restumping, Decking & Wall Removal | Strava Group',

@@ -349,7 +349,7 @@ export const posts: BlogPost[] = [
         heading: 'What Radiata Pine is and why it\'s different',
         body: [
           'Radiata Pine is an Australian product. Timberlink is the main supplier. It\'s grown in plantation conditions here, kiln-dried to local moisture targets, and by the time it arrives on a Sydney framing job, it\'s already acclimatised to Australian conditions.',
-          'It costs more. Not dramatically — but noticeably. The margin difference on a full residential frame is a few hundred to around a thousand dollars, depending on frame size. Against the total cost of a residential build, that difference is not significant. Against the cost of correcting joinery that won\'t sit flush against a bowed wall, it\'s trivial.',
+          'It costs more. The timber cost difference on a full residential frame runs $2,000–$4,000 depending on frame size. Against the total cost of a residential build, that\'s a real but manageable number. Against the cost of correcting joinery that won\'t sit flush against a bowed wall, it\'s trivial.',
           'The practical differences are straightness on delivery and dimensional stability over time. Radiata Pine comes off the mill straighter than Baltic Pine and holds that straightness better as the structure settles and seasonal humidity cycles through.',
         ],
       },
@@ -365,10 +365,10 @@ export const posts: BlogPost[] = [
       },
       {
         id: 'ovo-studs',
-        heading: 'Beyond the timber: OVO studs',
+        heading: 'Beyond the timber: LVL',
         body: [
-          'For clients who want to take frame performance further, OVO studs — finger-jointed, engineered framing components — represent a step beyond Radiata Pine for dimensional stability. They\'re manufactured to tighter tolerances and are less susceptible to the movement that affects solid timber.',
-          'We use OVO studs where the brief and the budget call for it. For [high-specification residential work](/services/fit-out/) where the joinery is expensive and the finish standard is tight, the upgrade is worth discussing.',
+          'For clients who want to take frame performance further, LVL — laminated veneer lumber — represents a significant step beyond Radiata Pine for dimensional stability. It\'s engineered from bonded timber veneers, manufactured to tighter tolerances than any solid timber, and far less susceptible to the movement that affects even well-selected Radiata Pine.',
+          'We use LVL where the brief and the budget call for it. For [high-specification residential work](/services/fit-out/) where the joinery is expensive and the finish standard is tight, the upgrade is worth discussing.',
           'For standard residential work where the budget is a genuine constraint, Radiata Pine in MGP10 structural grade is the correct call. Baltic Pine is not.',
         ],
       },
@@ -402,7 +402,7 @@ export const posts: BlogPost[] = [
       },
       {
         q: 'How much more does Radiata Pine cost than Baltic Pine for a full house frame?',
-        a: 'For a full residential frame, the timber cost difference is typically $300–$1,000 depending on frame size and complexity. Against total build cost, this is not a significant figure. Against the cost of joinery remediation or frame straightening after the build, it\'s trivial.',
+        a: 'For a full residential frame, the timber cost difference is typically $2,000–$4,000 depending on frame size and complexity. Against total build cost, that\'s a real number — but against the cost of joinery remediation or frame straightening after the build, it\'s still trivial.',
       },
     ],
     references: [
@@ -528,17 +528,17 @@ export const posts: BlogPost[] = [
     title: 'How Much Does Wall Framing Cost in Sydney?',
     seoTitle: 'Wall Framing Cost Sydney: Realistic 2026 Pricing | Strava Group',
     seoDescription:
-      'Wall framing in Sydney costs $40–60 per lineal metre for straight stud walls. A full residential floor frame typically runs $10,000–20,000. Here\'s what drives the difference.',
+      'Wall framing in Sydney costs $100–150 per lineal metre for straight stud walls. A full residential floor frame typically runs $10,000–20,000. Here\'s what drives the difference.',
     publishDate: '2026-05-06',
     readingTime: 6,
     excerpt:
-      'Wall framing in Sydney runs $40–60 per lineal metre for straight stud walls on a slab. A complete ground floor frame for a standard home is $10,000–20,000 depending on complexity. Here\'s what makes quotes vary significantly for the same job.',
+      'Wall framing in Sydney runs $100–150 per lineal metre for straight stud walls on a slab. A complete ground floor frame for a standard home is $10,000–20,000 depending on complexity. Here\'s what makes quotes vary significantly for the same job.',
     sections: [
       {
         id: 'the-numbers',
         heading: 'What wall framing costs in Sydney',
         body: [
-          'The per-metre rate for [wall framing](/services/wall-framing/) on a residential job in Sydney is $40–60 per lineal metre for straight stud walls on a slab, standard ceiling height, no unusual complexity. That\'s a useful starting point and an almost useless number on its own.',
+          'The per-metre rate for [wall framing](/services/wall-framing/) on a residential job in Sydney is $100–150 per lineal metre for straight stud walls on a slab, standard ceiling height, no unusual complexity. That\'s a useful starting point and an almost useless number on its own.',
           'A typical three to four bedroom single-storey home has 80–130 lineal metres of internal and external walls. At the per-metre rate, that\'s $3,200–7,800 for the walls alone. Add in plates, headers over openings, double top plates, bracing, junctions, temporary bracing, and the mobilisation cost of a crew, and a complete single-storey residential frame runs $10,000–20,000.',
           'Two-storey frames — ground floor walls, floor framing between levels, upper floor walls, double top plates, temporary bracing — are $20,000–40,000 for a standard Sydney home. Complex geometry, vaulted ceilings, or unusual structural requirements push prices higher.',
           'These are realistic estimates, not quotes. A quote requires plans, measurements, and a site visit. Be wary of any quote that arrives without plans — it\'s either an estimate or a price that will change once someone looks at the job properly.',
@@ -587,7 +587,7 @@ export const posts: BlogPost[] = [
     faqs: [
       {
         q: 'How much does wall framing cost per metre in Sydney?',
-        a: 'Straight stud framing on a slab in Sydney runs $40–60 per lineal metre as a rough guide. That figure is for standard residential wall heights and doesn\'t account for lintels, junctions, bracing, or mobilisation costs. A complete residential floor frame is a different figure from the per-metre rate alone.',
+        a: 'Straight stud framing on a slab in Sydney runs $100–150 per lineal metre as a rough guide. That figure is for standard residential wall heights and doesn\'t account for lintels, junctions, bracing, or mobilisation costs. A complete residential floor frame is a different figure from the per-metre rate alone.',
       },
       {
         q: 'How much does it cost to frame a house in Sydney?',

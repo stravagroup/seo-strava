@@ -136,12 +136,15 @@ export default async function LocationPage({ params }: Props) {
               </div>
             </div>
 
-            {/* Image placeholder */}
-            <div className="w-full aspect-video bg-zinc-100 border-2 border-dashed border-zinc-300 flex flex-col items-center justify-center gap-3 text-zinc-400">
-              <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <span className="text-sm font-medium">{location.name} — project photo</span>
+            <div>
+              <img
+                src={location.image}
+                alt={`${location.name} carpentry — Strava Group`}
+                className="w-full h-auto block"
+                fetchPriority="high"
+                width={1000}
+                height={667}
+              />
             </div>
           </div>
         </div>
@@ -186,12 +189,15 @@ export default async function LocationPage({ params }: Props) {
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Image placeholder */}
-            <div className="w-full aspect-video bg-zinc-100 border-2 border-dashed border-zinc-300 flex flex-col items-center justify-center gap-3 text-zinc-400">
-              <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-              <span className="text-sm font-medium">{location.name} — site photo</span>
+            <div>
+              <img
+                src={location.image}
+                alt={`${location.name} carpentry work — Strava Group`}
+                className="w-full h-auto block"
+                loading="lazy"
+                width={1000}
+                height={667}
+              />
             </div>
 
             <div>

@@ -29,8 +29,8 @@ export default function Footer() {
           <div>
             <div className="mb-5">
               <img
-                src="/logo.webp"
-                alt="Strava Group"
+                src="/strava-group-carpentry-logo.webp"
+                alt="Strava Group Carpentry"
                 width={160}
                 height={48}
                 loading="lazy"

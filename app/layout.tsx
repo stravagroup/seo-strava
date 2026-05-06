@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     'decking pergola sydney',
   ],
   icons: {
-    icon: '/logo.webp',
-    shortcut: '/logo.webp',
-    apple: '/logo.webp',
+    icon: '/strava-group-carpentry-logo.webp',
+    shortcut: '/strava-group-carpentry-logo.webp',
+    apple: '/strava-group-carpentry-logo.webp',
   },
   openGraph: {
     type: 'website',

@@ -88,8 +88,6 @@ export default function HomePage() {
               'repeating-linear-gradient(0deg,transparent,transparent 59px,rgba(255,255,255,1) 59px,rgba(255,255,255,1) 60px),repeating-linear-gradient(90deg,transparent,transparent 59px,rgba(255,255,255,1) 59px,rgba(255,255,255,1) 60px)',
           }}
         />
-        {/* Gold accent bar */}
-        <div className="absolute left-0 top-0 bottom-0 w-1 bg-gold" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-36">
           <div className="max-w-3xl">
