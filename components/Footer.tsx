@@ -29,12 +29,12 @@ export default function Footer() {
           <div>
             <div className="mb-5">
               <img
-                src="/strava-group-carpentry-logo.webp"
-                alt="Strava Group Carpentry"
+                src="/logo.webp"
+                alt="Strava Group"
                 width={160}
                 height={48}
                 loading="lazy"
-                className="h-10 w-auto object-contain"
+                className="h-10 w-auto object-contain brightness-0 invert"
               />
             </div>
             <p className="text-white/65 text-sm leading-relaxed max-w-xs">
