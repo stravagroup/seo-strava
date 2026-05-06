@@ -46,6 +46,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.stravagroupcarpentry.com.au/',
   },
+  verification: {
+    google: 'C2rWa0Wl0gI2jjifiUG-SonNWLUMgQmD0cJCVn-Dc9E',
+  },
 }
 
 const orgSchema = {
