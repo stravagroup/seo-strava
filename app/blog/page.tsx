@@ -5,7 +5,7 @@ import { posts } from '@/content/posts'
 export const metadata: Metadata = {
   title: { absolute: 'Structural Carpentry Blog Sydney | Strava Group' },
   description:
-    'Practical writing on structural carpentry â€” why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
+    'Practical writing on structural carpentry — why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
   alternates: {
     canonical: 'https://www.stravagroupcarpentry.com.au/blog/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'Structural Carpentry Blog Sydney | Strava Group',
     description:
-      'Practical writing on structural carpentry â€” why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
+      'Practical writing on structural carpentry — why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
     url: 'https://www.stravagroupcarpentry.com.au/blog/',
     siteName: 'Strava Group',
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Structural Carpentry Blog Sydney | Strava Group',
     description:
-      'Practical writing on structural carpentry â€” why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
+      'Practical writing on structural carpentry — why subfloors squeak, what restumping costs in Sydney, the difference between Baltic and Radiata Pine, and how to tell if a wall is load bearing.',
   },
 }
 
@@ -48,7 +48,7 @@ export default function BlogIndexPage() {
           </nav>
           <h1 className="text-5xl md:text-6xl font-bold text-white tracking-tight">From the Blog</h1>
           <p className="text-white/55 text-lg mt-5 max-w-2xl leading-relaxed">
-            Practical writing on structural carpentry â€” what the difference actually is, where things go wrong, and how to avoid paying for someone else&apos;s shortcuts.
+            Practical writing on structural carpentry — what the difference actually is, where things go wrong, and how to avoid paying for someone else&apos;s shortcuts.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function BlogIndexPage() {
           >
             <p className="text-xs text-gray-500 mb-3">
               {new Date(posts[0].publishDate).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
-              {' Â· '}{posts[0].readingTime} min read
+              {' · '}{posts[0].readingTime} min read
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#0C0C0C] group-hover:text-gold transition-colors leading-tight mb-4 max-w-3xl">
               {posts[0].title}
@@ -92,7 +92,7 @@ export default function BlogIndexPage() {
               >
                 <p className="text-xs text-gray-500 mb-3">
                   {new Date(post.publishDate).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
-                  {' Â· '}{post.readingTime} min read
+                  {' · '}{post.readingTime} min read
                 </p>
                 <h2 className="font-bold text-[#0C0C0C] text-xl leading-snug mb-3 group-hover:text-gold transition-colors">
                   {post.title}

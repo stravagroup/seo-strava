@@ -5,14 +5,14 @@ import { locations } from '@/content/locations'
 export const metadata: Metadata = {
   title: { absolute: 'Structural Carpentry Locations Sydney | Strava Group' },
   description:
-    'Strava Group works across Sydney â€” Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
+    'Strava Group works across Sydney — Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
   alternates: {
     canonical: 'https://www.stravagroupcarpentry.com.au/locations/',
   },
   openGraph: {
     title: 'Structural Carpentry Locations Sydney | Strava Group',
     description:
-      'Strava Group works across Sydney â€” Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
+      'Strava Group works across Sydney — Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
     url: 'https://www.stravagroupcarpentry.com.au/locations/',
     siteName: 'Strava Group',
     type: 'website',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Structural Carpentry Locations Sydney | Strava Group',
     description:
-      'Strava Group works across Sydney â€” Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
+      'Strava Group works across Sydney — Inner West, North Shore, Eastern Suburbs, Northern Beaches, Hills District, and Ryde. Structural carpentry wherever you are building.',
   },
 }
 

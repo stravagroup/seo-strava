@@ -77,7 +77,7 @@ export default function ServicesPage() {
             <h2 className="text-4xl font-bold text-[#0C0C0C] mb-6">Every service. One standard.</h2>
             <p className="text-gray-600 leading-relaxed">
               Across all services, Strava Group applies the same above-standard specification: enhanced fixings,
-              correct materials, and methods that account for how buildings behave over time â€” not just how
+              correct materials, and methods that account for how buildings behave over time — not just how
               they appear on the day of inspection.
             </p>
           </div>

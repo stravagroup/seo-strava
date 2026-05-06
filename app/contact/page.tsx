@@ -4,14 +4,14 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: { absolute: 'Contact Strava Group | Structural Carpentry Sydney' },
   description:
-    'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter â€” 0450 605 080.',
+    'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter — 0450 605 080.',
   alternates: {
     canonical: 'https://www.stravagroupcarpentry.com.au/contact/',
   },
   openGraph: {
     title: 'Contact Strava Group | Structural Carpentry Sydney',
     description:
-      'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter â€” 0450 605 080.',
+      'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter — 0450 605 080.',
     url: 'https://www.stravagroupcarpentry.com.au/contact/',
     siteName: 'Strava Group',
     type: 'website',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Contact Strava Group | Structural Carpentry Sydney',
     description:
-      'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter â€” 0450 605 080.',
+      'Get in touch with Strava Group for above-standard structural carpentry in Sydney. Licensed builder and licensed carpenter — 0450 605 080.',
   },
 }
 
@@ -206,7 +206,7 @@ export default function ContactPage() {
                     name="message"
                     rows={5}
                     required
-                    placeholder="Tell us about your project â€” scope, location, timeline..."
+                    placeholder="Tell us about your project — scope, location, timeline..."
                     className="w-full border border-gray-200 px-4 py-3 text-sm focus:outline-none focus:border-gold transition-colors resize-none"
                   />
                 </div>
@@ -214,7 +214,7 @@ export default function ContactPage() {
                 <div>
                   <label className="block text-xs font-semibold tracking-[0.15em] uppercase text-gray-500 mb-2">
                     Plans / Blueprints{' '}
-                    <span className="normal-case tracking-normal font-normal text-gray-400">(optional â€” PDF, max 10 MB)</span>
+                    <span className="normal-case tracking-normal font-normal text-gray-400">(optional — PDF, max 10 MB)</span>
                   </label>
                   <input
                     type="file"

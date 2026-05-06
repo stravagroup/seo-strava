@@ -40,22 +40,22 @@ const differentiators = [
   {
     number: '01',
     title: 'Base Accuracy First',
-    body: 'Set-out errors compound at every stage above them. We use true diagonal verification rather than 3-4-5, and correct level at slab â€” not disguised at top-plate. If the base is wrong, it cannot be corrected later without compromise.',
+    body: 'Set-out errors compound at every stage above them. We use true diagonal verification rather than 3-4-5, and correct level at slab — not disguised at top-plate. If the base is wrong, it cannot be corrected later without compromise.',
   },
   {
     number: '02',
     title: 'Tension-Based Bracing Only',
-    body: 'Traditional compression bracing loses effectiveness as timber seasons and fixings loosen. We use tension-based systems exclusively â€” they actively restrain movement rather than reacting after it occurs, and maintain effectiveness over the life of the building.',
+    body: 'Traditional compression bracing loses effectiveness as timber seasons and fixings loosen. We use tension-based systems exclusively — they actively restrain movement rather than reacting after it occurs, and maintain effectiveness over the life of the building.',
   },
   {
     number: '03',
     title: 'Nails and Structural Screws. Both.',
-    body: 'Nail-only framing is the standard. The connections hold initially but loosen as timber seasons and cyclic loading works the joints. Every frame we build uses rear nailing, side fixing, and structural screws to all end studs â€” noggings included. A typical frame can be knocked apart with a hammer before it is braced. Ours cannot.',
+    body: 'Nail-only framing is the standard. The connections hold initially but loosen as timber seasons and cyclic loading works the joints. Every frame we build uses rear nailing, side fixing, and structural screws to all end studs — noggings included. A typical frame can be knocked apart with a hammer before it is braced. Ours cannot.',
   },
   {
     number: '04',
     title: 'No Liquid Nails',
-    body: 'Liquid nails becomes brittle, does not accommodate movement, and debonds under cyclic loading. That leads directly to squeaking floors. We use polyurethane adhesive exclusively â€” it cushions, flexes, and holds over time.',
+    body: 'Liquid nails becomes brittle, does not accommodate movement, and debonds under cyclic loading. That leads directly to squeaking floors. We use polyurethane adhesive exclusively — it cushions, flexes, and holds over time.',
   },
 ]
 
@@ -78,6 +78,7 @@ export default function HomePage() {
           className="absolute inset-0 w-full h-full object-cover opacity-20"
           width={1920}
           height={1080}
+          fetchPriority="high"
         />
         {/* Subtle grid overlay */}
         <div
@@ -315,7 +316,7 @@ export default function HomePage() {
               >
                 <p className="text-xs text-gray-500 mb-3">
                   {new Date(post.publishDate).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })}
-                  {' Â· '}{post.readingTime} min
+                  {' · '}{post.readingTime} min
                 </p>
                 <h3 className="font-bold text-[#0C0C0C] text-lg leading-snug mb-3 group-hover:text-gold transition-colors">
                   {post.title}
