@@ -703,6 +703,95 @@ export const posts: BlogPost[] = [
   },
 
   {
+    slug: 'deck-cost-sydney',
+    image: '/merbau-decking-around-pool.webp',
+    title: 'How Much Does a Deck Cost in Sydney? (2026 Guide)',
+    seoTitle: 'Deck Cost Sydney 2026: Realistic Pricing Guide | Strava Group',
+    seoDescription:
+      'A basic treated pine deck in Sydney starts around $8,000–$12,000. Hardwood runs $15,000–$30,000+. Here\'s what drives the price and what cheap decks cut to get there.',
+    publishDate: '2026-05-18',
+    readingTime: 7,
+    excerpt:
+      'A basic treated pine deck in Sydney starts around $8,000–$12,000 installed. Hardwood decking runs $15,000–$30,000 for a standard outdoor area. Here\'s what drives the difference and what the cheaper quotes are leaving out.',
+    sections: [
+      {
+        id: 'the-numbers',
+        heading: 'What a deck actually costs in Sydney in 2026',
+        body: [
+          'For a straightforward ground-level deck of 20–30 m² in treated pine, budget $8,000–$12,000 installed in Sydney. That assumes reasonable site access, standard bearer and joist sizing, and no engineering requirements.',
+          'Hardwood decking — spotted gum, blackbutt, ironbark — adds material cost and installation time. A comparable 20–30 m² hardwood deck runs $15,000–$22,000. Larger areas, elevated structures, engineered footings, or complex access push that higher.',
+          'Composite decking sits between the two on material cost but reduces long-term maintenance. Installed price is broadly similar to hardwood — $14,000–$20,000 for a standard area — though the substructure spec varies by manufacturer.',
+          'These are realistic estimates. A quote that comes in significantly below these numbers is not a bargain — it\'s missing something. [Read below](/blog/deck-cost-sydney/#what-cheap-quotes-cut) to understand what that something usually is.',
+        ],
+      },
+      {
+        id: 'what-drives-price',
+        heading: 'What actually drives the price',
+        body: [
+          'Timber species. Treated pine is the budget option. It\'s appropriate for ground-level residential decks where maintenance is acceptable and the aesthetic is secondary. Hardwood costs more upfront, lasts longer, and looks better for longer — spotted gum and blackbutt both maintain their appearance well in Sydney conditions with basic oiling.',
+          'Post footings. A ground-level deck on stable soil might need nothing more than post stirrups into concrete pads. An elevated deck, a deck on a slope, or one where the engineer specifies pad footings to bedrock is a different job. Footing excavation and concrete work adds $1,500–$5,000 to the cost depending on depth and count.',
+          'Site access. A flat rear yard with wide side access is an easy site. A rear yard accessed through a narrow gate with several flights of stairs above is not. Material handling, scaffold setup, and extended carry distances all add labour hours that appear in the quote.',
+          'Balustrade and handrail requirements. Under the [NCC](https://abcb.gov.au), decks over 1 m above the adjacent ground require balustrades to a minimum height of 1 m. Balustrade framing is a separate scope item from the deck structure — it adds $2,000–$6,000 depending on material, height, and run length.',
+        ],
+      },
+      {
+        id: 'what-cheap-quotes-cut',
+        heading: 'What cheap quotes are cutting',
+        body: [
+          'The substructure specification is where most cost-cutting happens. Bearers undersized for the span. Joists toenailed instead of bracketed. Posts notched instead of correctly bolted. Hardware that is the wrong grade for outdoor exposure — standard galvanised rather than hot-dip or stainless.',
+          'None of this is visible once the decking boards go down. You find out at year three when something starts shifting, or at year five when a post connection has corroded through. By then the builder is long gone.',
+          'A correctly built [deck](/services/decking-pergolas/) uses hardware rated for the exposure. Joists are bracketed, not toenailed. Beam spans are sized for the actual load, not the minimum. Posts have correct bearing and connection at both top and bottom.',
+          'The cheapest quote and the most expensive quote are often building the same deck on paper. The difference is what happens in the substructure that you\'ll never see.',
+        ],
+      },
+      {
+        id: 'permits',
+        heading: 'Do you need council approval for a deck in NSW?',
+        body: [
+          'In NSW, many residential decks qualify as exempt development under the State Environmental Planning Policy — meaning no council approval is required if the structure meets specific criteria. The main thresholds are deck area, height above ground, setbacks from the boundary, and whether the property is in a heritage conservation area.',
+          'The criteria vary by council LEP and by the specific provisions that apply to your property. A deck that qualifies as exempt in one area may require a CDC or DA in another. The practical advice: check with a private certifier before building, not after.',
+          'Heritage-listed or heritage-affected properties have tighter controls. An older home in Paddington, Balmain, or Hunters Hill may require additional approvals that standard residential properties don\'t need.',
+        ],
+      },
+      {
+        id: 'when-not-to-hire',
+        heading: 'When not to hire us',
+        body: [
+          'If you need a deck built in two weeks for the lowest possible price, we are not your builder. We book ahead, we don\'t cut specification to hit a price point, and we won\'t sacrifice substructure quality to reduce the quote.',
+          'If the deck is a simple ground-level structure on a flat site with no engineering requirements and you\'re happy with treated pine, there are cheaper options. We\'re the right call when you want it built correctly and you want it to still be correct in ten years.',
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is the cheapest type of decking in Sydney?',
+        a: 'Treated pine is the most affordable material for decking in Sydney. A ground-level treated pine deck of 20–30 m² typically starts around $8,000–$12,000 installed. The material is appropriate for the application — it\'s the substructure specification that determines whether it lasts, not the decking board choice.',
+      },
+      {
+        q: 'How long does hardwood decking last in Sydney?',
+        a: 'A correctly built hardwood deck — spotted gum, blackbutt, or ironbark — should last 25–35 years in Sydney with basic maintenance (cleaning and oiling every 1–2 years). The lifespan is primarily determined by the substructure quality and hardware specification, not the decking board species.',
+      },
+      {
+        q: 'Do I need council approval for a deck in NSW?',
+        a: 'Many residential decks in NSW qualify as exempt development if they meet size, height, and setback thresholds under the applicable SEPP and council LEP. Check with a private certifier for your specific property — particularly if it\'s in a heritage conservation area or has any heritage overlay.',
+      },
+      {
+        q: 'How long does it take to build a deck in Sydney?',
+        a: 'A standard ground-level deck of 20–40 m² takes 3–5 working days for a crew, not including any footing cure time. Elevated decks, complex sites, and structures requiring engineering take longer.',
+      },
+      {
+        q: 'Is composite decking worth the extra cost?',
+        a: 'Composite decking eliminates the annual oiling requirement of hardwood and doesn\'t crack or splinter over time. The upfront cost is broadly similar to hardwood. It\'s worth it if low maintenance is the priority. It\'s not worth it if the aesthetic of real timber is important to you — composite products have improved significantly but are still recognisably not timber.',
+      },
+    ],
+    references: [
+      { title: 'NSW Planning — Exempt Development', url: 'https://www.planning.nsw.gov.au/policy-and-legislation/housing/housing-reforms/exempt-complying-development' },
+      { title: 'Australian Building Codes Board — NCC Balustrade Requirements', url: 'https://abcb.gov.au' },
+      { title: 'WoodSolutions — Hardwood Decking Species Guide', url: 'https://www.woodsolutions.com.au' },
+    ],
+  },
+
+  {
     slug: 'second-storey-addition-sydney',
     image: '/double-story-frame.webp',
     title: 'Second Storey Addition in Sydney: What the Structural Work Actually Involves',
